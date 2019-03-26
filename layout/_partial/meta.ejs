@@ -33,7 +33,7 @@
     <% } %>
 
     <div class='new-meta-box'>
-      <% if(config.author && (!post.meta || post.meta.author != false)){ %>
+      <% if(!config.author && (!post.meta || post.meta.author != false)){ %>
         <div class='new-meta-item author'>
           <a href="<%- url_for(config.url) %>">
             <i class="fas fa-user" aria-hidden="true"></i>

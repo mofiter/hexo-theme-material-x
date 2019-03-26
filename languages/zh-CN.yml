@@ -29,6 +29,7 @@ footer:
   total_views: 总访问量为
   total_visitors: 总访客量
   times: 次
+  beian: '[京ICP备19011532号-1](http://www.miitbeian.gov.cn/)'
 search:
   placeholder: 搜索
 symbol:
